@@ -96,16 +96,17 @@ p{
     width: 100%;
     justify-content: space-evenly;
     background: #E3E6F3;
+    background-image: url("img/hero4.png");
     /* background-size: contain; */
     /* background-position: ; */
 }
 
-.hero-bg-image{
+/* .hero-bg-image{
     background-image: url("img/hero4.png");
     width: 50%;
     background-size: contain;
     background-repeat: no-repeat;
-}
+} */
 
 .hero-div{
     display: flex;
@@ -525,7 +526,7 @@ footer .copyright{
     text-align: center;
 }
 
-/* Media Queries */
+/* Media Queries for ipad mini*/
 
 @media (max-width: 780px) {
     
@@ -682,5 +683,88 @@ footer .copyright{
     }
     .col{
         margin-left: 15px;
+    }
+
+}
+
+
+/* media queries for mobile devices */
+@media (max-width: 658px){
+    /* header section */
+    #header{
+        padding: 18px 30px;
+    }
+
+    /* hero section */
+    #hero{
+        /* border: 2px solid red; */
+        /* width: auto; */
+        height: 55vh;
+        flex-direction: column;
+        justify-content: start;
+        padding: 22px;
+        gap: 10px;
+    }
+
+    #hero h1{
+        color: green;
+    }
+
+    #hero .shop-now-btn{
+        margin-left: 90px;
+    }
+
+    /* first feature section i.e feature-div */
+    #feature-div{
+        /* border: 2px solid red; */
+        height: auto;
+    }   
+
+    .feature-sub-divs{
+        /* border: 2px solid black; */
+        width: 45%;
+    }
+
+    /* first banner section */
+
+    .banner{
+        height: 280px;
+    }
+
+    .banner h2{
+        text-align: center;
+    }
+
+    .banner button{
+        width: 40%;
+    }
+
+    /* bottom banner */
+    .bottom-banner-container3{
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: -279px;
+        border: 2px solid red;
+        width: 88vw;
+    }
+
+    .bottom-banner-container2{
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: -279px;
+        border: 2px solid red;
+        width: 88vw;
+    }
+    .bottom-banner-container1{
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: -190px;
+        border: 2px solid red;
+        width: 88vw;
+    }
+
+    /* newsletter */
+    #newsletter{
+        height: 40vh;
     }
 }
