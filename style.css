@@ -743,7 +743,7 @@ footer .copyright{
     .bottom-banner-container3{
         background-size: cover;
         background-repeat: no-repeat;
-        background-position: -279px;
+        background-position: -165px;
         border: 2px solid red;
         width: 88vw;
     }
@@ -751,14 +751,14 @@ footer .copyright{
     .bottom-banner-container2{
         background-size: cover;
         background-repeat: no-repeat;
-        background-position: -279px;
+        background-position: -260px;
         border: 2px solid red;
         width: 88vw;
     }
     .bottom-banner-container1{
         background-size: cover;
         background-repeat: no-repeat;
-        background-position: -190px;
+        background-position: -135px;
         border: 2px solid red;
         width: 88vw;
     }
